@@ -11,13 +11,3 @@ pyaudio==0.2.13
 av==10.0.0
 requests==2.32.3
 
-# Extra utilities (if used in app)
-num2words==0.5.12
-
-# Audio/ML stack (with stable versions)
-numpy==1.26.4
-librosa==0.10.1
-torch==2.2.2
-transformers==4.41.1
-tensorflow==2.16.1
-moviepy==1.0.3
