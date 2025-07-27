@@ -16,6 +16,37 @@ A voice-based AI assistant that uses OpenAI's GPT model for natural conversation
 - Working microphone
 - Internet connection
 
+```
+##  CHAND Voice Assistant – Commands and Actions
+```
+| **Voice Command**           | **Action Performed**                                                        |
+| --------------------------- | --------------------------------------------------------------------------- |
+| `chand`                     | Responds with "Yes? I'm listening 👂"                                       |
+| `play <song name>`          | Plays the song on YouTube using **pywhatkit.playonyt()**                    |
+| `search <query>`            | Searches Google with the query using **pywhatkit.search()**                 |
+| `time`                      | Speaks the **current time** in `HH:MM AM/PM` format                         |
+| `date`                      | Speaks the **current date** (e.g., July 27, 2025)                           |
+| `day`                       | Speaks the **current weekday** (e.g., Sunday)                               |
+| `who is <person>`           | Reads the first sentence of the person’s Wikipedia summary                  |
+| `joke`                      | Tells a random **programming joke** using **pyjokes**                       |
+| `tell me a fact`            | Fetches a **random useless fact** from the `uselessfacts.jsph.pl` API       |
+| `open chrome`               | Opens **Google Chrome**, if path exists locally                             |
+| `open code` or `vs code`    | Launches **Visual Studio Code** using `os.system("code")`                   |
+| `open notepad`              | Opens **Notepad** application on Windows                                    |
+| `system info`               | Speaks OS name, release version, and Python version                         |
+| `open downloads`            | Opens the **Downloads** folder using `os.startfile()`                       |
+| `open pictures`             | Opens the **Pictures** folder                                               |
+| `open documents`            | Opens the **Documents** folder                                              |
+| `read pdf`                  | Prompts for a **PDF path**, reads & speaks first 500 characters of page 1   |
+| `weather in <city>`         | Fetches and speaks **current weather** using `wttr.in` API                  |
+| `calculate <expression>`    | Evaluates math expressions (supports `plus`, `minus`, `into`, `divided by`) |
+| `convert <number> to words` | Converts number to **English words** using `num2words()`                    |
+| `exit` / `stop` / `bye`     | Ends the assistant session with a goodbye message                           |
+| *(any other input)*         | Replies with "Sorry I don’t understand that yet 😅"                         |
+
+---
+
+
 ## Installation
 
 1. Clone the repository:
